@@ -111,3 +111,14 @@ nav ul li a{
     padding-right: 20px;
     font-size: 14px;
 }
+
+@keyframes slide {
+
+    from {
+        top: 0;
+    }
+    to {
+        bottom: 40px 
+        
+    }
+}
