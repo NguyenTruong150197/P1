@@ -26,11 +26,13 @@
 .logo{
     width: 160px;
     cursor: pointer;
+    animation-delay: 1s;
 }
 
 .cart{
     width: 40px;
     cursor: pointer;
+    animation-delay: 1s;
 }
 
 nav{
@@ -93,6 +95,7 @@ nav ul li a{
     position: absolute;
     bottom: 0;
     right: 160px;
+    animation-delay: 1s;
 }
 
 .social-links{
