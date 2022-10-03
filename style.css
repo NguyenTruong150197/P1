@@ -21,18 +21,25 @@
     margin: auto;
     display: flex;
     align-items: center;
+    font-size: 32px;
 }
 
+
+
 .logo{
-    width: 160px;
+    width: 120px;
     cursor: pointer;
-    animation-delay: 1s;
+    animation: spinner 2s infinite linear;
+}
+@keyframes spinner {
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 .cart{
     width: 40px;
     cursor: pointer;
-    animation-delay: 1s;
 }
 
 nav{
@@ -93,9 +100,8 @@ nav ul li a{
 .feature-img{
     height: 90%;
     position: absolute;
-    bottom: 0;
-    right: 160px;
-    animation-delay: 1s;
+    bottom: 40px;
+    right: 320px;
 }
 
 .social-links{
@@ -110,15 +116,4 @@ nav ul li a{
     color: #6a7199;
     padding-right: 20px;
     font-size: 14px;
-}
-
-@keyframes slide {
-
-    from {
-        top: 0;
-    }
-    to {
-        bottom: 40px 
-        
-    }
 }
